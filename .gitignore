@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+
+# Build artifacts
+build/
+dist/
+*.spec.bak
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Temp/test files
+test_optimizer_manual.py
+*.gmem
+
+# Secrets (just in case)
+.env
